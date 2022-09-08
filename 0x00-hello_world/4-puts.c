@@ -1,7 +1,7 @@
 #include <stdio.h> 
 /** 
- * main - The containing function of this program
- * Return:it gives zero if successful
+ * main - Entry point
+ * Return: Always 0 if successful
  */
 int main(void)
 {
