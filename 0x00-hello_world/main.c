@@ -1,4 +1,4 @@
-export CFILE=1-main.c
+export CFILE=main.c
 #include <stdio.h>
 
 
