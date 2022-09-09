@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
  * main - Entry point
- * return: Always 0 if successful
+ *
+ * Description: prints main value of alphabets
+ *
+ * Return: Always 0 if successful
  */
 
 int main(void)
@@ -25,6 +29,7 @@ int main(void)
 			putchar(lower);
 			lower++;
 		}
-	}	putchar('\n');
-		return (0);
+	}
+	putchar('\n');
+	return (0);
 }
