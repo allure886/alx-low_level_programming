@@ -24,5 +24,5 @@ else
 largest = c;
 }
 
-return (0);
+return (largest);
 }
