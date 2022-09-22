@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_line - prints bytes of a buffer
  * @c: buffer to print
@@ -16,7 +17,7 @@ for (j = 0; j <= 9; j++)
 if (j <= s)
 printf("%02x", c[l * 10 + j]);
 else
-printf(" ");
+printf("  ");
 if (j % 2)
 putchar(' ');
 }
