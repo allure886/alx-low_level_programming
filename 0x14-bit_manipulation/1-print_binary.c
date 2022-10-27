@@ -21,7 +21,7 @@ void print_binary(unsigned long int n)
 			c++;
 		}
 		else if (c != 0)
-			_putchar('1');
+			_putchar('0');
 	}
 	if (c == 0)
 		_putchar('0');
